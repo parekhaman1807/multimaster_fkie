@@ -38,6 +38,22 @@ Then build all packages:
 catkin build fkie_multimaster
 ```
 
+## Further Changes Required for IMAV Case
+
+# 1. Editing /etc/hosts
+
+Apart from all workstations being on the same network, the /etc/hosts file has to be edited on each workstation. Add,
+
+```
+$workstation_ip_1   $workstation_name_1
+$workstation_ip_2   $workstation_name_2
+```
+and so on depending on number of workstations.
+
+# 2. Time Sync
+
+All workstations should be time-synced. Currently, a script is run which alots the same time to all workstations. NTP could be used.
+
 ## Documentation
 
 * [multimaster\_fkie](http://fkie.github.io/multimaster_fkie)
