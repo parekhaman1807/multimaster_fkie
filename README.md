@@ -54,7 +54,7 @@ and so on depending on number of workstations.
 
 All workstations should be time-synced. Currently, a script is run which alots the same time to all workstations. NTP could be used.
 
-## 3.Publishing Only Required Topics
+## 3. Publishing Only Required Topics
 
 Edit `master_sync.launch` under `fkie_master_sync`. Under the topic param section, add the required topic to be published as
 ```
