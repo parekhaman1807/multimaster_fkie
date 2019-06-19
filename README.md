@@ -61,6 +61,7 @@ Edit `master_sync.launch` under package `fkie_master_sync`. Under the topic para
 ["usb_cam/image_raw"]
 ```
 on all workstations.
+Substantial latency reduction was observed on only publishing required limited topics.
 
 ## Documentation
 
