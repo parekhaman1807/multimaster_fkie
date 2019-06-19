@@ -52,7 +52,7 @@ and so on depending on number of workstations.
 
 ## 2. Time Sync
 
-All workstations should be time-synced. Currently, a script is run which alots the same time to all workstations. NTP could be used.
+All workstations should be time-synced. Currently, a script is run which alots the same time to all workstations. NTP could not be used, as it requires an active internet connection which is not provided by the portable router.
 
 ## 3. Publishing Only Required Topics
 
